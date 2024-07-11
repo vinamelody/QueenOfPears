@@ -14,7 +14,8 @@ struct QuoteListView: View {
                             let screenWidth = proxy.frame(in: .global).width
                             let distanceToMidX = screenWidth / 2 - frame.midX
 
-                            let hue: Double = Double(index.hashValue / 360)
+                            let intIndex = abs(index.distance(to: 0)) + 1
+                            let hue: Double = Double(intIndex * 30)
                             return content
                                 .hueRotation(.degrees(hue))
                                 .blur(radius: -distanceToMidX / 100)
