@@ -19,6 +19,8 @@
 		5AB6BAF22C3D3DEF00925F4E /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6BAF12C3D3DEF00925F4E /* View+Extensions.swift */; };
 		5AB6BAF42C3D3E3400925F4E /* BoxedRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB6BAF32C3D3E3400925F4E /* BoxedRenderer.swift */; };
 		5AC2011A2C3BFA3E009F29CB /* QuoteTextTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC201192C3BFA3E009F29CB /* QuoteTextTransition.swift */; };
+		5AC235432C3FAD17002E2EEA /* VisualEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC235422C3FAD0B002E2EEA /* VisualEffect.swift */; };
+		5AC235452C3FB3AD002E2EEA /* HorizontalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC235442C3FB3AD002E2EEA /* HorizontalScrolling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		5AB6BAF12C3D3DEF00925F4E /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		5AB6BAF32C3D3E3400925F4E /* BoxedRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxedRenderer.swift; sourceTree = "<group>"; };
 		5AC201192C3BFA3E009F29CB /* QuoteTextTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTextTransition.swift; sourceTree = "<group>"; };
+		5AC235422C3FAD0B002E2EEA /* VisualEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffect.swift; sourceTree = "<group>"; };
+		5AC235442C3FB3AD002E2EEA /* HorizontalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrolling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				5A9F926F2C3ABB360085AFF4 /* QueenOfPearsApp.swift */,
+				5AC235422C3FAD0B002E2EEA /* VisualEffect.swift */,
+				5AC235442C3FB3AD002E2EEA /* HorizontalScrolling.swift */,
+				5AB6BAF32C3D3E3400925F4E /* BoxedRenderer.swift */,
 				5A9F92712C3ABB360085AFF4 /* QuoteCardView.swift */,
 				5A9F929B2C3AD2240085AFF4 /* BlurTextRenderer.swift */,
-				5AB6BAF32C3D3E3400925F4E /* BoxedRenderer.swift */,
 				5AB6BAF12C3D3DEF00925F4E /* View+Extensions.swift */,
 				5AC201192C3BFA3E009F29CB /* QuoteTextTransition.swift */,
 				5A9F92992C3AC8CF0085AFF4 /* QuotesData.swift */,
@@ -276,8 +282,10 @@
 				5A9F929C2C3AD2240085AFF4 /* BlurTextRenderer.swift in Sources */,
 				5A9F92702C3ABB360085AFF4 /* QueenOfPearsApp.swift in Sources */,
 				5A9F929A2C3AC8CF0085AFF4 /* QuotesData.swift in Sources */,
+				5AC235452C3FB3AD002E2EEA /* HorizontalScrolling.swift in Sources */,
 				5AB6BAF22C3D3DEF00925F4E /* View+Extensions.swift in Sources */,
 				5AB6BAF42C3D3E3400925F4E /* BoxedRenderer.swift in Sources */,
+				5AC235432C3FAD17002E2EEA /* VisualEffect.swift in Sources */,
 				5AC2011A2C3BFA3E009F29CB /* QuoteTextTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
